@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./icons/Nuvens.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  color: white;
+}
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+#cdd {
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+#temp {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+#icon {
+  margin-bottom: 20px;
+}
+
+#inpt {
+  height: 38px;
+  width: 200px;
+  padding-left: 5px;
+}
+#btn {
+  height: 40px;
+  margin-left: 5px;
+  position: absolute;
+  right: 0;
+  top: -2px;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-image: url(./round_search_black_24dp.png);
+}
+
+#src {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#pais {
+  font-size: 20px;
+}
